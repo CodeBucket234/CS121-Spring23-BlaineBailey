@@ -1,3 +1,5 @@
+package WeekOne;
+
 import javax.swing.JOptionPane;
 
 public class PayrollExample {
