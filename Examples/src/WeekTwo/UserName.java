@@ -12,7 +12,7 @@ import java.util.Scanner;
 //
 //
 //************************************************************
-public class Activity1 {
+public class UserName {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
