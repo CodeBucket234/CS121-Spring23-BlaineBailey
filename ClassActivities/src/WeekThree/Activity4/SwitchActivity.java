@@ -1,6 +1,30 @@
 package WeekThree.Activity4;
 //Importing Scanner class
 import java.util.Scanner;
+//**********************************************************************************************************************
+// Activity 4: Switch Activity
+// Name: Blaine Bailey
+// Date of Submission: 1/27/2023
+//**********************************************************************************************************************
+// To use this program:
+// Click the green arrow, then enter a planet from our solar system. Our program is case-insensitive. If you enter a
+// planet from our solar system, then it will display a bunch of facts about the planet, and provide a link citation to
+// the website with the information. If you do not enter a planet from our solar system, then you will be given an
+// error message.
+//**********************************************************************************************************************
+// This program uses the Scanner class for input.
+//**********************************************************************************************************************
+// CITATIONS:
+//     https://space-facts.com/mercury/
+//     https://space-facts.com/venus/
+//     https://space-facts.com/earth/
+//     https://space-facts.com/mars/
+//     https://space-facts.com/jupiter/
+//     https://space-facts.com/saturn/
+//     https://space-facts.com/uranus/
+//     https://space-facts.com/neptune/
+//**********************************************************************************************************************
+
 public class SwitchActivity {
     public static void main(String[] args) {
         //Creating scanner object
@@ -11,17 +35,14 @@ public class SwitchActivity {
         String planet = input.nextLine();
         planet = planet.toLowerCase();
 
-        while(!(planet.equals("mercury") || planet.equals("venus") || planet.equals("earth") || planet.equals("mars") || planet.equals("jupiter") || planet.equals("saturn") || planet.equals("uranus") || planet.equals("neptune"))) {
-            System.out.print("Please enter in a planet from our solar system: ");
-            planet = input.nextLine();
-            planet = planet.toLowerCase();
-        }
-
+        //Check to see which planet the user entered
+        //Display information for the corresponding planet
         switch(planet) {
             case "mercury":
-                System.out.println("The diameter of Mercury is 4,879 km.");
+                System.out.println("\nThe diameter of Mercury is 4,879 km.");
                 System.out.println("The mass of Mercury is: 3.29 × 10^23 kg.");
                 System.out.println("Mercury has no moons.");
+                System.out.println("Mercury has no rings.");
                 System.out.println("The orbit distance of Mercury is: 57,909,227 km (0.39 AU).");
                 System.out.println("A year on Mercury lasts 88 Earth days.");
                 System.out.println("The surface temperature range of Mercury goes from -173°C to 427°C (-279.4°F to 800.6°F).");
@@ -30,9 +51,10 @@ public class SwitchActivity {
                 System.out.println("\thttps://space-facts.com/mercury/");
                 break;
             case "venus":
-                System.out.println("The diameter of Venus is 12,104 km.");
+                System.out.println("\nThe diameter of Venus is 12,104 km.");
                 System.out.println("The mass of Venus is: 4.87 × 10^24 kg.");
                 System.out.println("Venus has no moons.");
+                System.out.println("Venus has no rings.");
                 System.out.println("The orbit distance of Venus is: 108,209,475 km (0.73 AU).");
                 System.out.println("A year on Venus lasts 255 Earth days.");
                 System.out.println("The surface temperature of Venus is 462°C (863.6°F).");
@@ -41,9 +63,10 @@ public class SwitchActivity {
                 System.out.println("\thttps://space-facts.com/venus/");
                 break;
             case "earth":
-                System.out.println("The diameter of Earth is 12,756 km.");
+                System.out.println("\nThe diameter of Earth is 12,756 km.");
                 System.out.println("The mass of Earth is: 5.97 × 10^24 kg.");
                 System.out.println("Earth has 1 moon.");
+                System.out.println("Earth has no rings.");
                 System.out.println("The orbit distance of Earth is: 149,598,262 km (1 AU).");
                 System.out.println("A year on Earth lasts 365.24 Earth days.");
                 System.out.println("The surface temperature range of Earth goes from -88°C to 58°C (-126.4°F to 136.4°F).");
@@ -52,9 +75,10 @@ public class SwitchActivity {
                 System.out.println("\thttps://space-facts.com/earth/");
                 break;
             case "mars":
-                System.out.println("The diameter of Mars is 6,792 km.");
+                System.out.println("\nThe diameter of Mars is 6,792 km.");
                 System.out.println("The mass of Mars is: 6.39 × 10^23 kg.");
                 System.out.println("Mars has 2 moons.");
+                System.out.println("Mars has no rings.");
                 System.out.println("The orbit distance of Mars is: 227,943,824 km (1.38 AU).");
                 System.out.println("A year on Mars lasts 687 Earth days.");
                 System.out.println("The surface temperature range of Mars goes from -87°C to -5°C (-124.6°F to 23°F).");
@@ -63,7 +87,7 @@ public class SwitchActivity {
                 System.out.println("\thttps://space-facts.com/mars/");
                 break;
             case "jupiter":
-                System.out.println("The diameter of Jupiter is 142,984 km.");
+                System.out.println("\nThe diameter of Jupiter is 142,984 km.");
                 System.out.println("The mass of Jupiter is: 1.90 × 10^27 kg.");
                 System.out.println("Jupiter has 79 moons.");
                 System.out.println("Jupiter has 4 rings.");
@@ -75,7 +99,7 @@ public class SwitchActivity {
                 System.out.println("\thttps://space-facts.com/jupiter/");
                 break;
             case "saturn":
-                System.out.println("The diameter of Saturn is 120,536 km.");
+                System.out.println("\nThe diameter of Saturn is 120,536 km.");
                 System.out.println("The mass of Saturn is: 5.68 × 10^26 kg.");
                 System.out.println("Saturn has 82 moons.");
                 System.out.println("Saturn has over 30 rings.");
@@ -87,7 +111,7 @@ public class SwitchActivity {
                 System.out.println("\thttps://space-facts.com/saturn/");
                 break;
             case "uranus":
-                System.out.println("The diameter of Uranus is 51,118 km.");
+                System.out.println("\nThe diameter of Uranus is 51,118 km.");
                 System.out.println("The mass of Uranus is: 8.68 × 10^25 kg.");
                 System.out.println("Uranus has 27 moons.");
                 System.out.println("Uranus has 13 rings.");
@@ -98,8 +122,8 @@ public class SwitchActivity {
                 System.out.println("\nThese facts came from the following website:");
                 System.out.println("\thttps://space-facts.com/uranus/");
                 break;
-            default:
-                System.out.println("The diameter of Neptune is 49,528 km.");
+            case "neptune":
+                System.out.println("\nThe diameter of Neptune is 49,528 km.");
                 System.out.println("The mass of Neptune is: 1.02 × 10^26 kg.");
                 System.out.println("Neptune has 14 moons.");
                 System.out.println("Neptune has 5 rings.");
@@ -110,6 +134,9 @@ public class SwitchActivity {
                 System.out.println("\nThese facts came from the following website:");
                 System.out.println("\thttps://space-facts.com/neptune/");
                 break;
+            //If the user does not provide a planet from the solar system, give an error message
+            default:
+                System.out.println("You did not enter a planet from our solar system.");
         }
     }
 }
