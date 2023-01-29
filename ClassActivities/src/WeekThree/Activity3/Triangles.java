@@ -4,13 +4,13 @@ import java.util.Scanner;
 //**********************************************************************************************************************
 // Activity 3: Triangles
 // Name: Blaine Bailey
-// Date of Submission: 1/27/2023
+// Date of Submission: 1/29/2023
 //**********************************************************************************************************************
 // To use this program:
-// Click the green arrow, then enter a planet from our solar system. Our program is case-insensitive. If you enter a
-// planet from our solar system, then it will display a bunch of facts about the planet, and provide a link citation to
-// the website with the information. If you do not enter a planet from our solar system, then you will be given an
-// error message.
+// Click the green arrow, then enter in three side measurements for a triangle. The program will then compare the
+// measurements of the triangles to see if the triangle is isosceles, scalene, or equilateral. It will then display
+// whether the triangle is isosceles, scalene, or equilateral. If any of the sides is 0, it will display that it is not
+// a triangle.
 //**********************************************************************************************************************
 // This program uses the Scanner class for input.
 //**********************************************************************************************************************

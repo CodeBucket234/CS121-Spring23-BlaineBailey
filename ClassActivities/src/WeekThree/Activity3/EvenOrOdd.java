@@ -1,6 +1,17 @@
 package WeekThree.Activity3;
 //Importing Scanner class for input
 import java.util.Scanner;
+//**********************************************************************************************************************
+// Activity 3: EvenOrOdd
+// Name: Blaine Bailey
+// Date of Submission: 1/29/2023
+//**********************************************************************************************************************
+// To use this program:
+// Click the green arrow, then enter a number. The number will determine whether the number you selected is even or odd.
+// It is that simple.
+//**********************************************************************************************************************
+// This program uses the Scanner class for input.
+//**********************************************************************************************************************
 public class EvenOrOdd {
     public static void main(String[] args) {
         //Creating new scanner object for user input

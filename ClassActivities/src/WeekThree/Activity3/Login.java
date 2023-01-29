@@ -1,6 +1,18 @@
 package WeekThree.Activity3;
 //Importing JOptionPane
 import javax.swing.JOptionPane;
+//**********************************************************************************************************************
+// Activity 3: Login
+// Name: Blaine Bailey
+// Date of Submission: 1/29/2023
+//**********************************************************************************************************************
+// To use this program:
+// Click the green arrow, then enter the password and username. The program will display "Welcome to CS121!" if you
+// entered the correct information. If not, the program will tell you whether you got the password wrong, or the
+// username, or both.
+//**********************************************************************************************************************
+// This program uses the JOptionPane class for input.
+//**********************************************************************************************************************
 public class Login {
     public static void main(String[] args) {
         //Declaring and initializing login information
