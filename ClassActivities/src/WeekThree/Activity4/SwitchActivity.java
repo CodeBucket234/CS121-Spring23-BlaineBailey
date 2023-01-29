@@ -4,7 +4,7 @@ import java.util.Scanner;
 //**********************************************************************************************************************
 // Activity 4: Switch Activity
 // Name: Blaine Bailey
-// Date of Submission: 1/27/2023
+// Date of Submission: 1/29/2023
 //**********************************************************************************************************************
 // To use this program:
 // Click the green arrow, then enter a planet from our solar system. Our program is case-insensitive. If you enter a
