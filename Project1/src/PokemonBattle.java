@@ -7,11 +7,13 @@ public class PokemonBattle {
         //Determine number of rounds
         System.out.println("POKEMON BATTLE");
         System.out.print("Enter an odd number of rounds: ");
-        int rounds = input.nextInt();
+        // used Integer.parseInt(input.nextLine());
+        int rounds = Integer.parseInt(input.nextLine());
 
         while (rounds % 2 == 0) {
             System.out.print("Please enter in an odd number of rounds: ");
-            rounds = input.nextInt();
+            // used Integer.parseInt(input.nextLine());
+            rounds = Integer.parseInt(input.nextLine());
         }
 
         System.out.println();
@@ -40,39 +42,48 @@ public class PokemonBattle {
             System.out.println("Player 1: Select a Pokemon and enter its stats");
             System.out.print("Enter name: ");
             name1 = input.nextLine();
-            input.nextLine();
+
+            // ******** TAKEN OUT *************
+            //input.nextLine();
 
             System.out.print("Enter HP: ");
-            hp1 = input.nextInt();
+            hp1 = Integer.parseInt(input.nextLine());
+            //added Integer.parseInt(input.nextLine())
+            // Original : input.nextLine();
 
             System.out.print("Enter move: ");
             move1 = input.nextLine();
-            input.nextLine();
+            // ******** TAKEN OUT *************
+            //input.nextLine();
 
             System.out.print("Enter move's power: ");
-            power1 = input.nextInt();
+            power1 = Integer.parseInt(input.nextLine());
 
             System.out.print("Enter attack speed: ");
-            speed1 = input.nextInt();
+            speed1 = Integer.parseInt(input.nextLine());
+            //adds a new line so it does not skip over the next input
+            System.out.println();
 
             //Player 2 will input their stats
             System.out.println("\nPlayer 2: Select a Pokemon and enter its stats");
             System.out.print("Enter name: ");
             name2 = input.nextLine();
-            input.nextLine();
+            // ******** TAKEN OUT *************
+            //input.nextLine();
 
             System.out.print("Enter HP: ");
-            hp2 = input.nextInt();
+            hp2 = Integer.parseInt(input.nextLine());
 
             System.out.print("Enter move: ");
             move2 = input.nextLine();
-            input.nextLine();
+            // ******** TAKEN OUT *************
+            //input.nextLine();
 
             System.out.print("Enter move's power: ");
-            power2 = input.nextInt();
+            power2 = Integer.parseInt(input.nextLine());
 
             System.out.print("Enter attack speed: ");
-            speed2 = input.nextInt();
+            speed2 = Integer.parseInt(input.nextLine());
 
             //Next compare speeds
 
