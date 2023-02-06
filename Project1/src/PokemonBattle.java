@@ -101,84 +101,41 @@ public class PokemonBattle {
             System.out.print("Enter attack speed: ");
             speed2 = Integer.parseInt(input.nextLine());
 
-            //Next compare speeds
+            //Round continues until a pokemon wins
+            while(!(hp1 < 1) || !(hp2 < 1)) {
+                //Compare speeds
 
-            //If Player 1's speed is faster
-            if(speed1 > speed2) {
-                hp2 -= power1;
-                //If player 2's pokemon dies
-                if(hp2 < 1) {
-                    win1++;
-                    System.out.printf("Player 1's %s has won this round!\n", name1);
-                    round++;
-                }
-                else {
-                    //Let Player 2's pokemon attack if not dead
-                    hp1 -= power1;
-                    //If player 1's pokemon dies
-                    if(hp1 < 1) {
-                        win2++;
-                        System.out.printf("Player 2's %s has won this round!\n", name2);
-                        round++;
-                    }
-                }
-            }
-            //If Player 2's speed is faster
-            else if(speed1 < speed2) {
-                hp1 -= power2;
-                //If player 1's pokemon dies
-                if(hp1 < 1) {
-                    win2++;
-                    System.out.printf("Player 2's %s has won this round!\n", name2);
-                    round++;
-                }
-                else {
-                    //Let player 1's pokemon attack if not dead
+                //If Player 1's speed is faster
+                if(speed1 > speed2) {
                     hp2 -= power1;
                     //If player 2's pokemon dies
                     if(hp2 < 1) {
                         win1++;
                         System.out.printf("Player 1's %s has won this round!\n", name1);
                         round++;
-                    }
-                }
-            }
-            //If Player 1 and Player 2 have the same speed
-            else {
-                //Create a random variable to pick which one goes first
-                Random rand = new Random();
-                int goFirst = rand.nextInt(1)+1;
-
-                //Testing to see who goes first
-
-                //Player 1 first
-                if(goFirst == 1) {
-                    hp2 -= power1;
-                    //If player 2's pokemon dies
-                    if(hp2 < 1) {
-                        win1++;
-                        System.out.printf("Player 1's %s has won this round!\n", name1);
-                        round++;
+                        break;
                     }
                     else {
-                        //Let player 2's pokemon attack if not dead
+                        //Let Player 2's pokemon attack if not dead
                         hp1 -= power1;
                         //If player 1's pokemon dies
                         if(hp1 < 1) {
                             win2++;
                             System.out.printf("Player 2's %s has won this round!\n", name2);
                             round++;
+                            break;
                         }
                     }
                 }
-                //Player 2 first
-                else {
+                //If Player 2's speed is faster
+                else if(speed1 < speed2) {
                     hp1 -= power2;
                     //If player 1's pokemon dies
                     if(hp1 < 1) {
                         win2++;
                         System.out.printf("Player 2's %s has won this round!\n", name2);
                         round++;
+                        break;
                     }
                     else {
                         //Let player 1's pokemon attack if not dead
@@ -188,12 +145,66 @@ public class PokemonBattle {
                             win1++;
                             System.out.printf("Player 1's %s has won this round!\n", name1);
                             round++;
+                            break;
+                        }
+                    }
+                }
+                //If Player 1 and Player 2 have the same speed
+                else {
+                    //Create a random variable to pick which one goes first
+                    Random rand = new Random();
+                    int goFirst = rand.nextInt(1)+1;
+
+                    //Testing to see who goes first
+
+                    //Player 1 first
+                    if(goFirst == 1) {
+                        hp2 -= power1;
+                        //If player 2's pokemon dies
+                        if(hp2 < 1) {
+                            win1++;
+                            System.out.printf("Player 1's %s has won this round!\n", name1);
+                            round++;
+                            break;
+                        }
+                        else {
+                            //Let player 2's pokemon attack if not dead
+                            hp1 -= power1;
+                            //If player 1's pokemon dies
+                            if(hp1 < 1) {
+                                win2++;
+                                System.out.printf("Player 2's %s has won this round!\n", name2);
+                                round++;
+                                break;
+                            }
+                        }
+                    }
+                    //Player 2 first
+                    else {
+                        hp1 -= power2;
+                        //If player 1's pokemon dies
+                        if(hp1 < 1) {
+                            win2++;
+                            System.out.printf("Player 2's %s has won this round!\n", name2);
+                            round++;
+                            break;
+                        }
+                        else {
+                            //Let player 1's pokemon attack if not dead
+                            hp2 -= power1;
+                            //If player 2's pokemon dies
+                            if(hp2 < 1) {
+                                win1++;
+                                System.out.printf("Player 1's %s has won this round!\n", name1);
+                                round++;
+                                break;
+                            }
                         }
                     }
                 }
             }
 
-            //Show win counter after each fight
+            //Show win counter after each round
             System.out.println("\nWins");
             System.out.println("----------");
             System.out.printf("Player 1: %d\n", win1);
