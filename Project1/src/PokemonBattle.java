@@ -1,5 +1,20 @@
+//Used Scanner class for user input
+//Used random class for random number generation
 import java.util.Scanner;
 import java.util.Random;
+//**********************************************************************************************************************
+// Project 1: Pokemon Battle
+// Name: Blaine Bailey
+// Date of Submission: 2/6/2023
+//**********************************************************************************************************************
+// To use this program:
+// Click the green arrow. Then enter an odd number of rounds to play. Player 1 will go first and enter the Pokemon
+// stats (name and health) and the stats of the move (move name, power, and speed). Player 2 will go next. If any player
+// wins the round (by dealing more damage than the health of the other Pokemon), then their wins will increment by one
+// and the next round will go on. There will be a win message for the winning player at the end of all the rounds.
+//**********************************************************************************************************************
+// This project uses the Scanner class for input and the Random class for random number generation.
+//**********************************************************************************************************************
 public class PokemonBattle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,6 +25,7 @@ public class PokemonBattle {
         // used Integer.parseInt(input.nextLine());
         int rounds = Integer.parseInt(input.nextLine());
 
+        //Making sure that the number of rounds entered is an odd number
         while (rounds % 2 == 0) {
             System.out.print("Please enter in an odd number of rounds: ");
             // used Integer.parseInt(input.nextLine());
@@ -61,7 +77,7 @@ public class PokemonBattle {
 
             System.out.print("Enter attack speed: ");
             speed1 = Integer.parseInt(input.nextLine());
-            //adds a new line so it does not skip over the next input
+            //adds a new line to make the console output more readable
             System.out.println();
 
             //Player 2 will input their stats
@@ -90,13 +106,16 @@ public class PokemonBattle {
             //If Player 1's speed is faster
             if(speed1 > speed2) {
                 hp2 -= power1;
+                //If player 2's pokemon dies
                 if(hp2 < 1) {
                     win1++;
                     System.out.printf("Player 1's %s has won this round!\n", name1);
                     round++;
                 }
                 else {
+                    //Let Player 2's pokemon attack if not dead
                     hp1 -= power1;
+                    //If player 1's pokemon dies
                     if(hp1 < 1) {
                         win2++;
                         System.out.printf("Player 2's %s has won this round!\n", name2);
@@ -107,13 +126,16 @@ public class PokemonBattle {
             //If Player 2's speed is faster
             else if(speed1 < speed2) {
                 hp1 -= power2;
+                //If player 1's pokemon dies
                 if(hp1 < 1) {
                     win2++;
                     System.out.printf("Player 2's %s has won this round!\n", name2);
                     round++;
                 }
                 else {
+                    //Let player 1's pokemon attack if not dead
                     hp2 -= power1;
+                    //If player 2's pokemon dies
                     if(hp2 < 1) {
                         win1++;
                         System.out.printf("Player 1's %s has won this round!\n", name1);
@@ -132,13 +154,16 @@ public class PokemonBattle {
                 //Player 1 first
                 if(goFirst == 1) {
                     hp2 -= power1;
+                    //If player 2's pokemon dies
                     if(hp2 < 1) {
                         win1++;
                         System.out.printf("Player 1's %s has won this round!\n", name1);
                         round++;
                     }
                     else {
+                        //Let player 2's pokemon attack if not dead
                         hp1 -= power1;
+                        //If player 1's pokemon dies
                         if(hp1 < 1) {
                             win2++;
                             System.out.printf("Player 2's %s has won this round!\n", name2);
@@ -149,13 +174,16 @@ public class PokemonBattle {
                 //Player 2 first
                 else {
                     hp1 -= power2;
+                    //If player 1's pokemon dies
                     if(hp1 < 1) {
                         win2++;
                         System.out.printf("Player 2's %s has won this round!\n", name2);
                         round++;
                     }
                     else {
+                        //Let player 1's pokemon attack if not dead
                         hp2 -= power1;
+                        //If player 2's pokemon dies
                         if(hp2 < 1) {
                             win1++;
                             System.out.printf("Player 1's %s has won this round!\n", name1);
