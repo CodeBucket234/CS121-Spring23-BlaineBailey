@@ -153,7 +153,7 @@ public class PokemonBattle {
                 else {
                     //Create a random variable to pick which one goes first
                     Random rand = new Random();
-                    int goFirst = rand.nextInt(1)+1;
+                    int goFirst = rand.nextInt(2)+1;
 
                     //Testing to see who goes first
 
