@@ -17,7 +17,7 @@ public class BankAccount {
     }
 
     public void addInterest() {
-        this.balance *= (interest + 1);
+        this.balance *= (this.interest + 1);
     }
 
     public void changeRate(double newInterest) {
