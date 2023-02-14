@@ -1,3 +1,13 @@
+//**********************************************************************************************************************
+// Activity 12: Classes
+// Name: Blaine Bailey
+// Date of Submission: 2/14/2023
+//**********************************************************************************************************************
+// This program is intended to test the BankAccount and Person classes that I have created. Click the green arrow, and
+// John's new bank account will be created. All the bank account methods will be used, and John's final bank information
+// is displayed. Stacy the person will be created, and her initial information will be displayed. Stacy will move to a
+// new place and become unemployed, and her final information will be displayed.
+//**********************************************************************************************************************
 public class TestingClass {
     public static void main(String[] args) {
         //Testing BankAccount Class
@@ -33,7 +43,7 @@ public class TestingClass {
         Stacy.changeAddress("24056 Blossom Street");
         Stacy.changeJob("Unemployed", 0);
 
-        //Display Stacy's new 
+        //Display Stacy's new
         System.out.println("\nIt has been a year since we last seen Stacy. Let's check on her now.");
         Stacy.displayInformation();
     }
