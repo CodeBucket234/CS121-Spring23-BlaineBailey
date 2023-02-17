@@ -1,9 +1,24 @@
 package packagesDemo;
-
+//**********************************************************************************************************************
+// Activity 13: Fields, Methods, and Encapsulation
+// Name: Blaine Bailey
+// Date of Submission: 2/17/2023
+//**********************************************************************************************************************
+// This is the Pokémon class. This Pokémon class has 5 instance variables, two public and three private. The public
+// instance variables are the strings name and type. The private instance variables are the integers hp, level, and
+// defense. This class also has getter methods which return the instance variables, and setter methods that change their
+// instances of the instance variables.
+//**********************************************************************************************************************
 public class Pokemon {
+
+    //Declaring variables
+    //Name and type will be public
+    //HP, level, and defense will be private
     String name, type;
     private int hp, level, defense;
 
+    //This constructor will take in name, type, hp, base level, and defense
+    //Creates new Pokémon based on values of parameters
     public Pokemon(String name, String type, int health, int baseLevel, int def) {
         this.name = name;
         this.type = type;
