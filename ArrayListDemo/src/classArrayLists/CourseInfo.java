@@ -17,18 +17,18 @@ public class CourseInfo {
     ArrayList<String> course;
     ArrayList<Double> gpa;
     ArrayList<Integer> score;
-    ArrayList<String> letterGrade;
+    ArrayList<Character> letterGrade;
 
     //Constructor that creates an object that initializes the empty array lists.
     public CourseInfo() {
         this.course = new ArrayList<String>();
         this.gpa = new ArrayList<Double>();
         this.score = new ArrayList<Integer>();
-        this.letterGrade = new ArrayList<String>();
+        this.letterGrade = new ArrayList<Character>();
     }
 
     //Adds course information
-    public void addItem(String course, double gpa, int score, String letter) {
+    public void addItem(String course, double gpa, int score, char letter) {
         this.course.add(course);
         this.gpa.add(gpa);
         this.score.add(score);

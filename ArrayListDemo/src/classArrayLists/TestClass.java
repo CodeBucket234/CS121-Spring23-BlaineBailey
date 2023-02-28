@@ -29,7 +29,7 @@ public class TestClass {
             String name;
             double gpa;
             int score;
-            String letter;
+            char letter;
 
             //Gets course name
             System.out.print("Enter in a course name: ");
@@ -84,7 +84,7 @@ public class TestClass {
             }
             //Add the course name if user did not type in q
             else {
-                letter = info;
+                letter = info.charAt(0);
             }
 
             //Adding empty line for formatting purposes
