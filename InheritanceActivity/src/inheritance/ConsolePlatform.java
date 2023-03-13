@@ -2,7 +2,7 @@ package inheritance;
 //**********************************************************************************************************************
 // Activity 19: Inheritance Activity
 // Name: Blaine Bailey
-// Date of Submission: 3/12/2023
+// Date of Submission: 3/13/2023
 //**********************************************************************************************************************
 // This is a subclass of the GamingPlatform superclass. This subclass inherits all the instance variables of the
 // superclass in addition to a new instance variable: the consoleType, which stores the console that the user plays on.
@@ -18,7 +18,7 @@ public class ConsolePlatform extends GamingPlatform {
     //Default constructor for ConsolePlatform subclass
     public ConsolePlatform() {
         super();
-        consoleType = "default console";
+        this.consoleType = "default console";
     }
 
     //Getters

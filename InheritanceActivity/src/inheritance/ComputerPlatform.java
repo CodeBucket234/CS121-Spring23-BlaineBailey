@@ -2,7 +2,7 @@ package inheritance;
 //**********************************************************************************************************************
 // Activity 19: Inheritance Activity
 // Name: Blaine Bailey
-// Date of Submission: 3/12/2023
+// Date of Submission: 3/13/2023
 //**********************************************************************************************************************
 // This is a subclass of the GamingPlatform superclass. This subclass inherits all the instance variables of the
 // superclass in addition to a new instance variable: the PC_Type, which stores the PC that the user plays on.
@@ -18,7 +18,7 @@ public class ComputerPlatform extends GamingPlatform {
     //Default constructor for the ComputerPlatform subclass
     public ComputerPlatform() {
         super();
-        PC_Type = "default PC";
+        this.PC_Type = "default PC";
     }
 
     //Getters

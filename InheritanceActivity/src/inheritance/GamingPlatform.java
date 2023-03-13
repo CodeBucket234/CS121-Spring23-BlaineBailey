@@ -2,7 +2,7 @@ package inheritance;
 //**********************************************************************************************************************
 // Activity 19: Inheritance Activity
 // Name: Blaine Bailey
-// Date of Submission: 3/12/2023
+// Date of Submission: 3/13/2023
 //**********************************************************************************************************************
 // This is the superclass with three instance variables: numGames, which stores the number of games, hoursPlayed, which
 // stores the number of hours played, and userName, which stores the name of the user playing on a gaming platform. The
@@ -18,9 +18,9 @@ public class GamingPlatform {
 
     //Default constructor fot the GamingPlatform superclass
     public GamingPlatform() {
-        int numGames = 0;
-        int hoursPlayed = 0;
-        String userName = "default-user";
+        this.numGames = 0;
+        this.hoursPlayed = 0;
+        this.userName = "default-user";
     }
 
     //Getters
