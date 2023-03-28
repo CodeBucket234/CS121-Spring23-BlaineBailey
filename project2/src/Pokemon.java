@@ -1,7 +1,20 @@
+//**********************************************************************************************************************
+// Project 2: Pokemon Class
+// Name: Blaine Bailey
+// Date of Submission: 3/28/2023
+//**********************************************************************************************************************
+// This is the pokemon class. This pokemon class has 5 instance variables: name, move, hitPoints, movePower, and
+// attackSpeed. These instance variables correspond to the stats for the pokemon. This class also has a constructor with
+// parameters for each stat, and the constructor creates a pokemon object with initialized stats. This class has getters
+// and setters, as well as a displayPokemonStats method that returns a formatted string with all the stats of the
+// pokemon.
+//**********************************************************************************************************************
 public class Pokemon {
+    //Private instance variables for the pokemon
     private String name, move;
     private int hitPoints, movePower, attackSpeed;
 
+    //Pokemon constructor to create a pokemon with defined stats
     public Pokemon(String name, String move, int pts, int pow, int speed) {
         this.name = name;
         this.move = move;
