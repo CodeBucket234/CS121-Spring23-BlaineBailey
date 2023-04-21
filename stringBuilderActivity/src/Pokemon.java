@@ -1,5 +1,5 @@
 //**********************************************************************************************************************
-// Activity 36: Pokemon Class
+// Activity 36: StringBuilder Activity
 // Name: Blaine Bailey
 // Date of Submission: 4/21/2023
 //**********************************************************************************************************************
@@ -67,6 +67,6 @@ public class Pokemon {
 
     //display stats
     public String displayPokemonStats() {
-        return String.format("Name: %s\nHit Points: %d\nMove: %s\nMove Power: %d\nAttack Speed: %d", getName(), getHitPoints(), getMove(), getMovePower(), getAttackSpeed());
+        return String.format("Name: %s\nHit Points: %d\nMove: %s\nMove Power: %d\nAttack Speed: %d\n\n", getName(), getHitPoints(), getMove(), getMovePower(), getAttackSpeed());
     }
 }
