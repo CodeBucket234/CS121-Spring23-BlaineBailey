@@ -18,11 +18,11 @@ public class PokemonRecord {
     }
 
     //Uses StringBuilder to return all the stats for all the pokemon in the record
-    public StringBuilder getAllPokemon() {
+    public String getAllPokemon() {
         StringBuilder strBuilder = new StringBuilder();
         for(Pokemon pokemon : allPokemon) {
             strBuilder.append(pokemon.displayPokemonStats());
         }
-        return strBuilder;
+        return strBuilder.toString();
     }
 }
