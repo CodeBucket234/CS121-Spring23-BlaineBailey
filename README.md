@@ -12,13 +12,13 @@
 | 8 | [Activity 9](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Activity9/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 9 | [Activity 10](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/fileActivity/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 10 | [Activity 11](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/methods/src) | Activity 11 has 4 methods for getting dimensions of a triangle and displaying the area of a triangle. |
-| 11 | [Activity 12](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/classes/src) | x |
-| 12 | [Activity 13](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/packages/src/packagesDemo) | x |
-| 13 | [Activity 14](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/overloaded/src) | x |
-| 14 | [Activity 15](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/array/src) | x |
-| 15 | [Activity 16](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/multidimensionalArrays/src) | x |
-| 16 | [Activity 17](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ArrayListDemo/src) | x |
-| 17 | [Activity 19](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/InheritanceActivity/src/inheritance) | x |
+| 11 | [Activity 12](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/classes/src) | Activity 12 is about creating two classes with their own methods and a testing class to create instances of the two classes. Then the instances of the classes are used to call the methods of their class. |
+| 12 | [Activity 13](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/packages/src/packagesDemo) | Activity 13 utilized the concept of encapsulation by using different access modifiers on the data and testing what happens when we try to access data with different access modifiers. What is shown here is 5 different private variables that can only be accessed by using the getter methods. |
+| 13 | [Activity 14](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/overloaded/src) | Activity 14 has the Pokemon class that features an overloaded constructor that has three variations: a default constructor that creates a "MissingNo" pokemon, a constructor that creates a base pokemon with a name passed through the parameter, and a constructor that creates a pokemon with a custom name and custom stats. |
+| 14 | [Activity 15](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/array/src) | Activity 15 is about creating arrays of different types and getting user input to fill the arrays and displaying their contents. |
+| 15 | [Activity 16](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/multidimensionalArrays/src) | Activity 16 utilizes primarily two concepts: multidimensional arrays and accessing elements using a for loop and for each loop. |
+| 16 | [Activity 17](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ArrayListDemo/src) | Activity 17 utilizes array lists of different types to store information, such as course information and pokemon. |
+| 17 | [Activity 19](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/InheritanceActivity/src/inheritance) | Activity 19 utilizes inheritance bu creating two child classes for a parent class. The child classes have access to the same methods as the parent class but also have additional data for their class. |
 | 18 | [Activity 20](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/abstractAndInterfaces/src) | x |
 | 19 | [Activity 21](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/staticActivity/src) | x |
 | 21 | [Activity 23](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/recursion/src) | x |
