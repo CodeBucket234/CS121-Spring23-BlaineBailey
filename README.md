@@ -12,35 +12,34 @@
 | 8 | [Activity 9](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Activity9/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 9 | [Activity 10](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/fileActivity/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 10 | [Activity 11](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/methods/src) | Activity 11 has 4 methods for getting dimensions of a triangle and displaying the area of a triangle. |
-| 11 | [Activity 12]() |  |
-| 12 | [Activity 13]() |  |
-| 13 | [Activity 14]() |  |
-| 14 | [Activity 15]() |  |
-| 15 | [Activity 16]() |  |
-| 16 | [Activity 17]() |  |
-| 17 | [Activity 18]() |  |
-| 18 | [Activity 19]() |  |
-| 19 | [Activity 20]() |  |
-| 20 | [Activity 21]() |  |
-| 21 | [Activity 22]() |  |
-| 22 | [Activity 23]() |  |
-| 23 | [Activity 24]() |  |
-| 24 | [Activity 25]() |  |
-| 25 | [Activity 26]() |  |
-| 26 | [Activity 27]() |  |
-| 27 | [Activity 28]() |  |
-| 28 | [Activity 29]() |  |
-| 29 | [Activity 30]() |  |
-| 30 | [Activity 31]() |  |
-| 31 | [Activity 32]() |  |
-| 32 | [Activity 33]() |  |
-| 33 | [Activity 34]() |  |
-| 34 | [Activity 35]() |  |
-| 35 | [Activity 36]() |  |
-| 36 | [Activity 37]() |  |
-| 37 | [Activity 38]() |  |
+| 11 | [Activity 12](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/classes/src) | x |
+| 12 | [Activity 13](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/packages/src/packagesDemo) | x |
+| 13 | [Activity 14](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/overloaded/src) | x |
+| 14 | [Activity 15](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/array/src) | x |
+| 15 | [Activity 16](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/multidimensionalArrays/src) | x |
+| 16 | [Activity 17](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ArrayListDemo/src) | x |
+| 17 | [Activity 19]() | x |
+| 18 | [Activity 20]() | x |
+| 19 | [Activity 21]() | x |
+| 20 | [Activity 22]() | x |
+| 21 | [Activity 23]() | x |
+| 23 | [Activity 24]() | x |
+| 24 | [Activity 25]() | x |
+| 25 | [Activity 26]() | x |
+| 26 | [Activity 27]() | x |
+| 27 | [Activity 28]() | x |
+| 28 | [Activity 29]() | x |
+| 29 | [Activity 30]() | x |
+| 30 | [Activity 31]() | x |
+| 31 | [Activity 32]() | x |
+| 32 | [Activity 33]() | x |
+| 33 | [Activity 34]() | x |
+| 34 | [Activity 35]() | x |
+| 35 | [Activity 36]() | x |
+| 36 | [Activity 37]() | x |
+| 37 | [Activity 38]() | x |
 
 | Number | Project | Description |
 | :-: | - | - |
 | 1 | [Project 1](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Project1/src) | In this project, the user enters how many rounds that the user would like to play. Each round, player 1 and player 2 will then enter 5 stats for their pokemon: the name of the pokemon, the health of the pokemon, the name of the move, the move speed, and the move power. Once all the rounds are over, the player that wins the most rounds wins. This project uses 1 class, and utilizes conditionals and loops. |
-| 2 | [Project 2](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/project2/src) | This project allows the user to create pokemon for two players with 5 stats: the name of the pokemon, the health of the pokemon, the name of the move, the move speed, and the move power. The program will then display the stats for each pokemon. This project uses 3 classes as opposed to the 1 class in project 1. The Pokemon class used in project 2 is used to create instances of the pokemon class that have 5 instance variables: the name of the pokemon, the health of the pokemon, the name of the move, the move speed, and the move power. The PokemonSelection class has one instance variable: a scanner object called input, which is used to gather user input. The class also features two methods: createPokemon and assignPokemon. The createPokemon method uses the scanner object to gather user input on the pokemon stats, and return the Pokemon object. The assignPokemon method uses the createPokemon method to create two pokemon for each player, and then print out the stats for each pokemon. The main class creates an instance of the PokemonSelection class and calls the assignPokemon method.!|
+| 2 | [Project 2](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/project2/src) | This project allows the user to create pokemon for two players with 5 stats: the name of the pokemon, the health of the pokemon, the name of the move, the move speed, and the move power. The program will then display the stats for each pokemon. This project uses 3 classes as opposed to the 1 class in project 1. The Pokemon class used in project 2 is used to create instances of the pokemon class that have 5 instance variables: the name of the pokemon, the health of the pokemon, the name of the move, the move speed, and the move power. The PokemonSelection class has one instance variable: a scanner object called input, which is used to gather user input. The class also features two methods: createPokemon and assignPokemon. The createPokemon method uses the scanner object to gather user input on the pokemon stats, and return the Pokemon object. The assignPokemon method uses the createPokemon method to create two pokemon for each player, and then print out the stats for each pokemon. The main class creates an instance of the PokemonSelection class and calls the assignPokemon method.|
