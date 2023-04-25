@@ -2,15 +2,43 @@
 
 | Number | Package | Description |
 | :------: | ------ | ------ |
-| 1 | [Week2]() | Activity 1 used Dialog Boxes and Scanner objects to gather user input. |
-| 2 | [Week3]() | Activity 2 focused on conditional statements and logical operators. |
-| 3 | [Week4]() | Activity 3 focuses on conditionals and logical operators. |
-| 4 | [Week5]() | Activity 4 uses switch statements for conditionals. |
-| 5 | [Week6]() | Activity 5 focuses on using conditionals and the .equals() method. |
-| 6 | [Week7]() | Activity 6 focuses uses while loops for a guessing game. |
-| 7 | [Week8]() | Activity 7 uses nested for loops to allow user to enter grades for a specified number of tests for a specified number of students. |
-| 8 | [Week10]() | Activity 9 has three methods for reading files, writing files, and appending to a file. |
-| 9 | [Week11]() | Activity 10 has 4 methods for getting dimensions of a triangle and displaying the area of a triangle. |
+| 1 | [Activity 1](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekTwo/Activity1) | Activity 1 used Dialog Boxes and Scanner objects to gather user input. |
+| 2 | [Activity 2](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekTwo/Activity2) | Activity 2 focused on conditional statements and logical operators. |
+| 3 | [Activity 3](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekThree/Activity3) | Activity 3 focuses on conditionals and logical operators. |
+| 4 | [Activity 4](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekThree/Activity4) | Activity 4 uses switch statements for conditionals. |
+| 5 | [Activity 5](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/restaurant/src) | Activity 5 focuses on using conditionals and the .equals() method. |
+| 6 | [Activity 7](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/whileLoopActivity/src) | Activity 7 focuses uses while loops for a guessing game. |
+| 7 | [Activity 8](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/nestedForLoopsActivity/src) | Activity 8 uses nested for loops to allow user to enter grades for a specified number of tests for a specified number of students. |
+| 8 | [Activity 9](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Activity9/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
+| 9 | [Activity 10](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/fileActivity/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
+| 10 | [Activity 11](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/methods/src) | Activity 11 has 4 methods for getting dimensions of a triangle and displaying the area of a triangle. |
+| 11 | [Activity 12]() |  |
+| 12 | [Activity 13]() |  |
+| 13 | [Activity 14]() |  |
+| 14 | [Activity 15]() |  |
+| 15 | [Activity 16]() |  |
+| 16 | [Activity 17]() |  |
+| 17 | [Activity 18]() |  |
+| 18 | [Activity 19]() |  |
+| 19 | [Activity 20]() |  |
+| 20 | [Activity 21]() |  |
+| 21 | [Activity 22]() |  |
+| 22 | [Activity 23]() |  |
+| 23 | [Activity 24]() |  |
+| 24 | [Activity 25]() |  |
+| 25 | [Activity 26]() |  |
+| 26 | [Activity 27]() |  |
+| 27 | [Activity 28]() |  |
+| 28 | [Activity 29]() |  |
+| 29 | [Activity 30]() |  |
+| 30 | [Activity 31]() |  |
+| 31 | [Activity 32]() |  |
+| 32 | [Activity 33]() |  |
+| 33 | [Activity 34]() |  |
+| 34 | [Activity 35]() |  |
+| 35 | [Activity 36]() |  |
+| 36 | [Activity 37]() |  |
+| 37 | [Activity 38]() |  |
 
 | Number | Project | Description |
 | :-: | - | - |
