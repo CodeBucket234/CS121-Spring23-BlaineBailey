@@ -1,7 +1,7 @@
 # CS121-Spring23-BlaineBailey
 
 | Number | Package | Description |
-| :------: | ------ | ------ |
+| :-: | - | - |
 | 1 | [Activity 1](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekTwo/Activity1) | Activity 1 used Dialog Boxes and Scanner objects to gather user input. |
 | 2 | [Activity 2](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekTwo/Activity2) | Activity 2 focused on conditional statements and logical operators. |
 | 3 | [Activity 3](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ClassActivities/src/WeekThree/Activity3) | Activity 3 focuses on conditionals and logical operators. |
@@ -12,29 +12,29 @@
 | 8 | [Activity 9](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Activity9/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 9 | [Activity 10](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/fileActivity/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 10 | [Activity 11](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/methods/src) | Activity 11 has 4 methods for getting dimensions of a triangle and displaying the area of a triangle. |
-| 11 | [Activity 12](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/classes/src) | x |
-| 12 | [Activity 13](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/packages/src/packagesDemo) | x |
-| 13 | [Activity 14](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/overloaded/src) | x |
-| 14 | [Activity 15](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/array/src) | x |
-| 15 | [Activity 16](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/multidimensionalArrays/src) | x |
-| 16 | [Activity 17](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ArrayListDemo/src) | x |
-| 17 | [Activity 19](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/InheritanceActivity/src/inheritance) | x |
-| 18 | [Activity 20](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/abstractAndInterfaces/src) | x |
-| 19 | [Activity 21](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/staticActivity/src) | x |
-| 21 | [Activity 23](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/recursion/src) | x |
-| 22 | [Activity 24](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/bigOActivity/src) | x |
-| 23 | [Activity 25](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/sortingActivity1/src) | x |
-| 24 | [Activity 26](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/sortingActivity2/src) | x |
-| 25 | [Activity 27](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/BinarySearchActivity/src) | x |
-| 26 | [Activity 28](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/setAndIteratorActivity/src) | x |
-| 27 | [Activity 29](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/genericsActivity/src) | x |
-| 28 | [Activity 30](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/hashMapActivity/src) | x |
-| 29 | [Activity 31](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/linkedListActivity/src) | x |
-| 30 | [Activity 32](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stackBrackets/src) | x |
-| 31 | [Activity 33](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/QueueActivity/src) | x |
-| 32 | [Activity 34](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/dateFormat/src) | x |
-| 33 | [Activity 35](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/testActivity) | x |
-| 34 | [Activity 36](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stringBuilderActivity/src) | x |
+| 11 | [Activity 12](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/classes/src) | Activity 12 is about creating two classes with their own methods and a testing class to create instances of the two classes. Then the instances of the classes are used to call the methods of their class. |
+| 12 | [Activity 13](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/packages/src/packagesDemo) | Activity 13 utilized the concept of encapsulation by using different access modifiers on the data and testing what happens when we try to access data with different access modifiers. What is shown here is 5 different private variables that can only be accessed by using the getter methods. |
+| 13 | [Activity 14](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/overloaded/src) | Activity 14 has the Pokemon class that features an overloaded constructor that has three variations: a default constructor that creates a "MissingNo" pokemon, a constructor that creates a base pokemon with a name passed through the parameter, and a constructor that creates a pokemon with a custom name and custom stats. |
+| 14 | [Activity 15](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/array/src) | Activity 15 is about creating arrays of different types and getting user input to fill the arrays and displaying their contents. |
+| 15 | [Activity 16](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/multidimensionalArrays/src) | Activity 16 utilizes primarily two concepts: multidimensional arrays and accessing elements using a for loop and for each loop. |
+| 16 | [Activity 17](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/ArrayListDemo/src) | Activity 17 utilizes array lists of different types to store information, such as course information and pokemon. |
+| 17 | [Activity 19](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/InheritanceActivity/src/inheritance) | Activity 19 utilizes inheritance bu creating two child classes for a parent class. The child classes have access to the same methods as the parent class but also have additional data for their class. |
+| 18 | [Activity 20](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/abstractAndInterfaces/src) | Activity 20 is about inheriting from abstract parent classes and implementing interfaces to create child classes with specialized methods. |
+| 19 | [Activity 21](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/staticActivity/src) | Activity 21 utilizes a static method to count the number of instances of a class that exist. |
+| 20 | [Activity 23](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/recursion/src) | Activity 23 is supposed to use recursion to detect whether strings passed through are palindromes or not. However, I mistakenly forgot to make the method recursive. |
+| 21 | [Activity 24](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/bigOActivity/src) | Activity 24 has a class with three different methods operating in three different time complexities: O(1), O(n), and O(n²). |
+| 22 | [Activity 25](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/sortingActivity1/src) | Activity 25 uses merge sort to sort an array consisting of 5 integers. |
+| 23 | [Activity 26](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/sortingActivity2/src) | Activity 26 uses selection sort to sort an array consisting of 5 integers. |
+| 24 | [Activity 27](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/BinarySearchActivity/src) | Activity 27 uses binary search to search through a sorted array consisting of 5 integers. The BinarySearchDemo class also has a method that uses selection sort to sort the array. |
+| 25 | [Activity 28](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/setAndIteratorActivity/src) | Activity 28 uses a hash set to store a set of students, and uses iterators to display all the students in the set. |
+| 26 | [Activity 29](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/genericsActivity/src) | Activity 29 uses a generic method to print the contents of an arrayList regardless of what type of arrayList gets passed through. |
+| 27 | [Activity 30](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/hashMapActivity/src) | Activity 30 uses a class to create hashmaps and has methods to add to the hashmap, remove values from the hashmap based on the key, get a value based on the key, and display the entire key value pair based on the key. |
+| 28 | [Activity 31](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/linkedListActivity/src) | Activity 31 uses linked lists to store course information for students. |
+| 29 | [Activity 32](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stackBrackets/src) | Activity 32 uses stacks to determine whether parenthesis are balanced or not. There is also a class that tests to see if all brackets (parenthesis, square brackets, and curly braces) are balanced. |
+| 30 | [Activity 33](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/QueueActivity/src) | Activity 33 uses a class to implement queues. The class has methods for adding to the queue, removing the object added in first, return the object added first to the queue, test whether the queue is empty, and to display the queue. |
+| 31 | [Activity 34](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/dateFormat/src) | Activity 34 uses dates to calculate the number of calories consumed over a period of time based on the daily calories consumed, the start date of the diet, and the end date of the diet. |
+| 32 | [Activity 35](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/testActivity) | Activity 35 uses JUnit5 for testing methods within a class. |
+| 33 | [Activity 36](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stringBuilderActivity/src) | Activity 36 uses StringBuilder to concatenate strings without using additional memory and returning strings. |
 
 | Number | Project | Description |
 | :-: | - | - |
