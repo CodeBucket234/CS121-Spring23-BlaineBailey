@@ -1,0 +1,5 @@
+Activity 5 uses the .equals() method with conditionals to test Strings. Activity 5 features 1 class.
+
+RestaurantSelector.java uses a Scanner object to get user input on whether any member of their party was vegan, gluten-free, or vegetarian. The strings the user inputted would have .toLowerCase() applied to them so that the program would be case-insensitive. Then based on the responses the user typed in, the program would use conditionals utilizing .equals() to select restaurants catering to the need of all members.
+
+The hardest part of this activity was creating the conditionals because there is three criteria used in this program to describe the needs of the members. I was originally setting up the conditionals to be more specific and testing all cases together, which caused a mess and I would kose track of the restaurants that would cater to which needs. I then realized that the assignment made the conditionals easier, because being vegan was the most restrictive, then gluten-free, with vegetarian being the least restrictive. All gluten-free restaurants were also vegan. Thus, the conditionals were simplified.
