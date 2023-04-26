@@ -32,9 +32,9 @@
 | 29 | [Activity 31](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/linkedListActivity/src) | Activity 31 uses linked lists to store course information for students. |
 | 30 | [Activity 32](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stackBrackets/src) | Activity 32 uses stacks to determine whether parenthesis are balanced or not. There is also a class that tests to see if all brackets (parenthesis, square brackets, and curly braces) are balanced. |
 | 31 | [Activity 33](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/QueueActivity/src) | Activity 33 uses a class to implement queues. The class has methods for adding to the queue, removing the object added in first, return the object added first to the queue, test whether the queue is empty, and to display the queue. |
-| 32 | [Activity 34](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/dateFormat/src) | x |
-| 33 | [Activity 35](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/testActivity) | x |
-| 34 | [Activity 36](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stringBuilderActivity/src) | x |
+| 32 | [Activity 34](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/dateFormat/src) | Activity 34 uses dates to calculate the number of calories consumed over a period of time based on the daily calories consumed, the start date of the diet, and the end date of the diet. |
+| 33 | [Activity 35](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/testActivity) | Activity 35 uses JUnit5 for testing methods within a class. |
+| 34 | [Activity 36](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/stringBuilderActivity/src) | Activity 36 uses StringBuilder to concatenate strings without using additional memory and returning strings. |
 
 | Number | Project | Description |
 | :-: | - | - |
