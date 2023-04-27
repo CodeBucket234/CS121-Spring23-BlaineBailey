@@ -9,7 +9,7 @@
 | 5 | [Activity 5](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/restaurant/src) | Activity 5 focuses on using conditionals and the .equals() method. |
 | 6 | [Activity 7](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/whileLoopActivity/src) | Activity 7 focuses uses while loops for a guessing game. |
 | 7 | [Activity 8](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/nestedForLoopsActivity/src) | Activity 8 uses nested for loops to allow user to enter grades for a specified number of tests for a specified number of students. |
-| 8 | [Activity 9](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Activity9/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
+| 8 | [Activity 9](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/Activity9/src) | Activity 9 utilizes random number generation for an ESP game. |
 | 9 | [Activity 10](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/fileActivity/src) | Activity 10 has three methods for reading files, writing files, and appending to a file. |
 | 10 | [Activity 11](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/methods/src) | Activity 11 has 4 methods for getting dimensions of a triangle and displaying the area of a triangle. |
 | 11 | [Activity 12](https://github.com/CodeBucket234/CS121-Spring23-BlaineBailey/tree/main/classes/src) | Activity 12 is about creating two classes with their own methods and a testing class to create instances of the two classes. Then the instances of the classes are used to call the methods of their class. |
