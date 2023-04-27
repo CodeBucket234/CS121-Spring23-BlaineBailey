@@ -1,0 +1,3 @@
+Activity 11 uses methods for getting the dimensions of a rectangle, getting the area based on the length and the width, and displaying the data of the rectangle. Activity 11 has one class.
+
+MethodsActivity.java uses a Scanner object for input. This class has 4 methods. The getLength() method asks the user for the length of the rectangle, and returns it. The getWidth() method asks the user for the width of the rectangle, and returns it. The getArea() method returns the length multiplied by the width. The displayData(double length, double width, double area) method takes in the length, width, and area as arguments, and prints out the length, width, and area to the console.
