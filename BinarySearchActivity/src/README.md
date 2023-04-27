@@ -1,0 +1,5 @@
+Activity 27 uses binary search to search through a sorted array. Activity 27 has two classes.
+
+BinarySearchDemo.java uses a private Scanner object for user input and a private array list. The constructor for the BinarySearchDemo class are the integers that are added to the array list. The sort method and the findMinIndex methods are the same as in activity 26, except they now work with array lists instead of arrays. The search method conducts binary search and returns either the index of the integer the user is looking for, or returns -1. The binarySearch method prompts the user to enter in the number the user is looking for. The search method is called, and then either the user is told that the number is not found, or the number and the index of the number is displayed to the user.
+
+BinarySearchTester.java creates an instance of the BinarySearchDemo class, and the sort method is called. Then, the binarySearch method is called in which the user enters a number, and the number is searched for, or not found.
