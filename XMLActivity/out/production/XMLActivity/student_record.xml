@@ -1,0 +1,14 @@
+<record>
+    <student id="1">
+        <firstname>Sebastian</firstname>
+        <lastname>Kayne</lastname>
+        <major>Geology</major>
+        <gpa>3.7</gpa>
+    </student>
+    <student id="2">
+        <firstname>Blair</firstname>
+        <lastname>Anderson</lastname>
+        <major>Quantum Mechanics</major>
+        <gpa>3.5</gpa>
+    </student>
+</record>
